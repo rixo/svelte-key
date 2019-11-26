@@ -1,6 +1,13 @@
 {
   "name": "svelte-key",
   "version": "0.0.1-1",
+  "author": "rixo <rixo@rixo.fr>",
+  "license": "WTFPL",
+  "repository": "git@github.com:rixo/svelte-key.git",
+  "homepage": "https://github.com/rixo/svelte-key",
+  "bugs": {
+    "url": "https://github.com/rixo/svelte-key/issues"
+  },
   "svelte": "src/index.svelte",
   "main": "src/index.svelte",
   "peerDependencies": {
