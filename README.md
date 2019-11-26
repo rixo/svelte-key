@@ -8,9 +8,13 @@ This feature might make it into Svelte eventually. Progress can be tracked in [t
 
 ## Installation
 
+Npm:
+
 ```bash
 npm install --dev svelte-key
 ```
+
+Yarn:
 
 ```bash
 yarn add --dev svelte-key
