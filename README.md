@@ -18,22 +18,22 @@ yarn add --dev svelte-key
 
 ## Usage
 
-[Example REPL](https://svelte.dev/repl/421369c3215d4cfe847f76f25adb6939?version=3.15.0).
+[Example REPL](https://svelte.dev/repl/421369c3215d4cfe847f76f25adb6939?version=3.15.0)
 
 ```html
 <script>
-	import Identity from 'svelte-key'
-	let i = 0
+  import Identity from 'svelte-key'
+  let i = 0
 </script>
 
 <p>Change input value & click button</p>
 
 <Identity key={i}>
-	<input />
+  <input />
 </Identity>
 
 <button on:click={() => {i++}}>
-	{i}
+  {i}
 </button>
 ```
 
