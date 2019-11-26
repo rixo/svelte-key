@@ -8,8 +8,8 @@
   "bugs": {
     "url": "https://github.com/rixo/svelte-key/issues"
   },
-  "svelte": "src/index.svelte",
-  "main": "src/index.svelte",
+  "svelte": "src/SvelteKey.svelte",
+  "main": "src/SvelteKey.svelte",
   "peerDependencies": {
     "svelte": "^3.0.0"
   },
