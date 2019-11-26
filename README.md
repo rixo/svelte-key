@@ -18,6 +18,8 @@ yarn add --dev svelte-key
 
 ## Usage
 
+[Example REPL](https://svelte.dev/repl/421369c3215d4cfe847f76f25adb6939?version=3.15.0).
+
 ```html
 <script>
 	import Identity from 'svelte-key'
