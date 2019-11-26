@@ -20,6 +20,8 @@ Yarn:
 yarn add --dev svelte-key
 ```
 
+Note: the package only publishes the component as source, because it doesn't make sense to use this standalone, outside of another Svelte component (heck! you can't even pass slots to standalone components currently).
+
 ## Usage
 
 [Example REPL](https://svelte.dev/repl/421369c3215d4cfe847f76f25adb6939?version=3.15.0)
