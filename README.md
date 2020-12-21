@@ -1,3 +1,17 @@
+# Deprecated
+
+The key feature is now part of Svelte since v3.28.0 (see [issue](https://github.com/sveltejs/svelte/issues/1469#issuecomment-698955660)).
+
+This package has consequently no reason to exist anymore and won't been maintained.
+
+The new syntax is Svelte is the following:
+
+~~~svelte
+{#key expression}...{/key}
+~~~
+
+---
+
 # svelte-key
 
 Emulates React's `key` feature: force some content (e.g. some component) to be recreated when the value of the key changes.
